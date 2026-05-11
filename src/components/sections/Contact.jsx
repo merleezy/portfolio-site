@@ -27,7 +27,7 @@ export default function Contact() {
           {portfolio.contact.socials.map(s => (
             <a
               key={s.label}
-              href={`https://${s.url}`}
+              href={s.label === 'Resume' ? s.url : `https://${s.url}`}
               target="_blank"
               rel="noreferrer"
               className={styles.socialCard}

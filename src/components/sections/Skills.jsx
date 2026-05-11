@@ -2,12 +2,34 @@ import { portfolio } from '../../data/portfolio'
 import SectionHead from '../ui/SectionHead'
 import styles from './Skills.module.css'
 
+function TimelineList({ label, items }) {
+  return (
+    <div className={styles.timeline}>
+      <h3 className={styles.subhead}>{label}</h3>
+      {items.map(item => (
+        <div key={item.company} className={styles.row}>
+          <div className={styles.left}>
+            <span className={styles.period}>{item.period}</span>
+            <span className={styles.company}>{item.company}</span>
+            {item.location && <span className={styles.location}>{item.location}</span>}
+          </div>
+          <div className={styles.right}>
+            <span className={styles.role}>{item.role}</span>
+            <span className={styles.blurb}>{item.blurb}</span>
+          </div>
+        </div>
+      ))}
+      <div className={styles.timelineFooter} />
+    </div>
+  )
+}
+
 export default function Skills() {
   const skillEntries = Object.entries(portfolio.skills)
 
   return (
     <section className={styles.section}>
-      <SectionHead num="03" title="Skills & education" cmd="cat skills.json | jq" />
+      <SectionHead num="03" title="Skills & experience" cmd="cat skills.json | jq" />
 
       <div className={styles.json}>
         <div className={styles.brace}>{'{'}</div>
@@ -27,21 +49,8 @@ export default function Skills() {
         <div className={styles.brace}>{'}'}</div>
       </div>
 
-      <div className={styles.education}>
-        {portfolio.education.map(e => (
-          <div key={e.company} className={styles.eduRow}>
-            <div className={styles.eduLeft}>
-              <span className={styles.period}>{e.period}</span>
-              <span className={styles.company}>{e.company}</span>
-            </div>
-            <div className={styles.eduRight}>
-              <span className={styles.degree}>{e.role}</span>
-              <span className={styles.eduBlurb}>{e.blurb}</span>
-            </div>
-          </div>
-        ))}
-        <div className={styles.eduFooter} />
-      </div>
+      <TimelineList label="Education" items={portfolio.education} />
+      <TimelineList label="Experience" items={portfolio.experience} />
     </section>
   )
 }

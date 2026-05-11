@@ -34,22 +34,36 @@
   color: var(--accent);
 }
 
-/* Education */
+/* Timeline lists (education + experience) */
 
-.education {
+.timeline {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
-.eduRow {
+.timeline:last-child {
+  margin-bottom: 0;
+}
+
+.subhead {
+  font-size: 11px;
+  color: var(--dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.row {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 24px;
   padding: 20px 0;
   border-top: 1px solid var(--border);
 }
 
-.eduLeft {
+.left {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -65,24 +79,29 @@
   color: var(--text);
 }
 
-.eduRight {
+.location {
+  font-size: 12px;
+  color: var(--dim);
+}
+
+.right {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.degree {
+.role {
   font-size: 15px;
   color: var(--text);
 }
 
-.eduBlurb {
+.blurb {
   font-size: 13px;
   color: var(--dim);
   line-height: 1.7;
   font-family: system-ui, sans-serif;
 }
 
-.eduFooter {
+.timelineFooter {
   border-top: 1px solid var(--border);
 }
