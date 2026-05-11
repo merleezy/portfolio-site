@@ -10,18 +10,18 @@ export const portfolio = {
   status: "Open to new-grad roles - graduated Spring 2026",
 
   projects: [
-    // {
-    //   id: "compass",
-    //   name: "Compass",
-    //   year: "2026",
-    //   blurb:
-    //     "Personal life dashboard for tracking habits, goals, and tasks with a unified interface. Features progress charts, calendar views, and structured reflection tools to help build consistency over time.",
-    //   tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
-    //   role: "Solo",
-    //   live: "",
-    //   repo: "",
-    //   accent: "#60a5fa",
-    // },
+    {
+      id: "compass",
+      name: "Compass",
+      year: "2026",
+      blurb:
+        "Personal life dashboard for tracking habits, goals, and tasks in one place. Features progress charts and structured reflection tools to help build consistency over time.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
+      role: "Solo",
+      live: "",
+      repo: "",
+      accent: "#60a5fa",
+    },
     {
       id: "smart-fitness",
       name: "Smart Fitness App",
