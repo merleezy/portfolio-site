@@ -1,0 +1,82 @@
+.section {
+  margin-bottom: 100px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 32px 36px;
+  background: var(--bg-el);
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text);
+  margin: 0 0 8px;
+}
+
+.subtext {
+  font-size: 14px;
+  color: var(--dim);
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0 0 28px;
+}
+
+.emailRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.arrow {
+  color: var(--dim);
+}
+
+.email {
+  font-size: 18px;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+.email:hover {
+  opacity: 0.8;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.socialCard {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--bg);
+  text-decoration: none;
+  transition: border-color 0.15s;
+}
+
+.socialCard:hover {
+  border-color: var(--dim);
+}
+
+.socialLabel {
+  font-size: 11px;
+  color: var(--dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.socialHandle {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 4px;
+}

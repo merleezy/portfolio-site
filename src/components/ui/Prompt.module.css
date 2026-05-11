@@ -1,0 +1,23 @@
+.prompt {
+  display: flex;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.user   { color: var(--accent); }
+.host   { color: var(--dim); }
+.path   { color: var(--accent3); }
+
+.dollar {
+  color: var(--dim);
+  margin-right: 8px;
+}
+
+.cmd     { color: var(--text); }
+
+.comment {
+  color: var(--dimmer);
+  margin-left: 10px;
+}

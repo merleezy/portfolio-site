@@ -1,0 +1,41 @@
+.section {
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 60px;
+}
+
+.body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.85;
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.interestRow {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.interestLabel {
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.interestNote {
+  font-size: 13px;
+  color: var(--dim);
+}
