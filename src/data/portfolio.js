@@ -5,7 +5,7 @@ export const portfolio = {
   role: "Software Developer",
   location: "New Orleans, LA",
   intro:
-    "Recent computer science graduate from Florida State University. I spend most of my time building side projects, learning by shipping, and sharpening the fundamentals. This site is a quick look at what I've been working on.",
+    "CS grad from Florida State. I build things, break them, and learn more from the second part than the first.",
 
   status: "Open to new-grad roles - graduated Spring 2026",
 
@@ -61,15 +61,19 @@ export const portfolio = {
   ],
 
   about: {
-    body: "Outside of code I'm usually on a golf course, lifting heavy things, watching anime, or working through a stack of books. I'm a perpetual student of my own habits and care a lot about long-term compounding — in code and in life. I grew up in Japan, played sports through school, and only started writing software seriously about three years ago. Most of what I know I picked up by building things, breaking them, and figuring out why.",
+    body: "I was born in Japan and grew up there through high school. It's still the place I love most in the world. I'm not sure I can articulate exactly why, but it just feels like home in a way nowhere else does. Programming started with Minecraft mods as a kid, but it didn't really take off until I got disciplined about everything: lifting, habits, and how I spend my time. Reading Atomic Habits was a turning point. It sounds cliché, but it genuinely changed how I approach things, and that compound mindset shows up in how I work. Outside of code, I'm usually in the gym, working on my golf game, reading, or watching some anime.",
     interests: [
-      { label: "Golf", note: "New to it — chasing my first sub-100 round" },
+      { label: "Golf", note: "New and obsessed. Chasing that first sub-100" },
       {
         label: "Reading",
-        note: "Mostly nonfiction — systems, history, biographies",
+        note: "Nonfiction mostly, but a good fiction book hits different",
       },
-      { label: "Lifting", note: "5 days a week, currently bulking" },
-      { label: "Anime", note: "Currently rewatching Frieren and Vinland Saga" },
+      { label: "Lifting", note: "5 days a week, currently cutting" },
+      {
+        label: "Anime",
+        note: "One piece loyalist. Always looking for new recs",
+      },
+      { label: "Japan", note: "Born and raised there, miss it every day" },
     ],
   },
 
