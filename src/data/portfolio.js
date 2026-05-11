@@ -66,7 +66,7 @@ export const portfolio = {
       { label: "Golf", note: "New and obsessed. Chasing that first sub-100" },
       {
         label: "Reading",
-        note: "Nonfiction mostly, but a good fiction book hits different",
+        note: "Nonfiction mostly, fiction when the right one finds me",
       },
       { label: "Lifting", note: "5 days a week, currently cutting" },
       {
