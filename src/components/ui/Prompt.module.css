@@ -1,9 +1,11 @@
 .prompt {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   font-family: var(--mono);
   font-size: 14px;
   line-height: 1.7;
+  word-break: break-word;
 }
 
 .user   { color: var(--accent); }

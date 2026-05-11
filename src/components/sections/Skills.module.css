@@ -105,3 +105,22 @@
 .timelineFooter {
   border-top: 1px solid var(--border);
 }
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 64px;
+  }
+  .json {
+    font-size: 12px;
+    padding: 16px 18px;
+  }
+  .jsonLine {
+    padding-left: 16px;
+    word-break: break-word;
+  }
+  .row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 18px 0;
+  }
+}

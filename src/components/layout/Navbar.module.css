@@ -50,3 +50,15 @@
 .time {
   color: var(--text);
 }
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 8px 14px;
+  }
+  .title {
+    display: none;
+  }
+  .right {
+    gap: 12px;
+  }
+}

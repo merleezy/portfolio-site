@@ -34,6 +34,19 @@
 .row {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.rowGroup {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.pair {
+  display: flex;
+  align-items: baseline;
   gap: 16px;
 }
 
@@ -52,6 +65,7 @@
 .value {
   font-size: 16px;
   color: var(--text);
+  white-space: nowrap;
 }
 
 .sep {
@@ -87,4 +101,31 @@
 .cursorHidden {
   margin-left: 2px;
   color: transparent;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 64px;
+  }
+  .ascii {
+    flex-direction: column;
+    gap: 8px;
+    overflow-x: visible;
+  }
+  .pre {
+    font-size: 9px;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .bio {
+    line-height: 1.65;
+  }
+  .rowGroup {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .sep {
+    display: none;
+  }
 }

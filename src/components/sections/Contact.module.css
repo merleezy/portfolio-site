@@ -80,3 +80,21 @@
   color: var(--text);
   margin-top: 4px;
 }
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 64px;
+  }
+  .card {
+    padding: 24px 20px;
+  }
+  .socials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .socials {
+    grid-template-columns: 1fr;
+  }
+}

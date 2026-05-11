@@ -40,12 +40,16 @@ export default function Hero() {
             <span className={styles.label}>NAME</span>
             <span className={styles.name}>{portfolio.name}</span>
           </div>
-          <div className={styles.row}>
-            <span className={styles.label}>ROLE</span>
-            <span className={styles.value}>{portfolio.role}</span>
+          <div className={styles.rowGroup}>
+            <div className={styles.pair}>
+              <span className={styles.label}>ROLE</span>
+              <span className={styles.value}>{portfolio.role}</span>
+            </div>
             <span className={styles.sep}>·</span>
-            <span className={styles.label}>LOC</span>
-            <span className={styles.value}>{portfolio.location}</span>
+            <div className={styles.pair}>
+              <span className={styles.label}>LOC</span>
+              <span className={styles.value}>{portfolio.location}</span>
+            </div>
           </div>
           <div className={styles.row}>
             <span className={styles.label}>BIO</span>

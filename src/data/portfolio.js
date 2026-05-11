@@ -4,25 +4,24 @@ export const portfolio = {
   initials: "IM",
   role: "Software Developer",
   location: "New Orleans, LA",
-  tagline: "Recent CS grad. I build clean, fast interfaces for the web.",
   intro:
     "Recent computer science graduate from Florida State University. I spend most of my time building side projects, learning by shipping, and sharpening the fundamentals. This site is a quick look at what I've been working on.",
 
   status: "Open to new-grad roles - graduated Spring 2026",
 
   projects: [
-    {
-      id: "compass",
-      name: "Compass",
-      year: "2026",
-      blurb:
-        "Personal life dashboard for tracking habits, goals, and tasks with a unified interface. Features progress charts, calendar views, and structured reflection tools to help build consistency over time.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
-      role: "Solo",
-      live: "",
-      repo: "",
-      accent: "#60a5fa",
-    },
+    // {
+    //   id: "compass",
+    //   name: "Compass",
+    //   year: "2026",
+    //   blurb:
+    //     "Personal life dashboard for tracking habits, goals, and tasks with a unified interface. Features progress charts, calendar views, and structured reflection tools to help build consistency over time.",
+    //   tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
+    //   role: "Solo",
+    //   live: "",
+    //   repo: "",
+    //   accent: "#60a5fa",
+    // },
     {
       id: "smart-fitness",
       name: "Smart Fitness App",
@@ -120,7 +119,7 @@ export const portfolio = {
   ],
 
   contact: {
-    email: "isaacmcd03@gmail.com",
+    email: "isaac@isaacmcdowell.dev",
     socials: [
       { label: "GitHub", handle: "@merleezy", url: "github.com/merleezy" },
       { label: "X", handle: "@merleezy_", url: "x.com/merleezy_" },

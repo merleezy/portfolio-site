@@ -113,3 +113,31 @@
 .link:hover {
   color: var(--accent3);
 }
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 64px;
+  }
+  .header {
+    display: none;
+  }
+  .row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 20px;
+  }
+  .row:hover {
+    background: transparent;
+  }
+  .blurb {
+    max-width: none;
+  }
+  .links {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .tech {
+    padding-top: 0;
+  }
+}
