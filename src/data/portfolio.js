@@ -39,7 +39,7 @@ export const portfolio = {
       name: "Tokyo Bloom",
       year: "2025",
       blurb:
-        "Restaurant web app with a reservation system, double-booking prevention, Google Maps integration, and security hardening — CSRF protection, input sanitization, and prepared statements.",
+        "Restaurant web app with a full reservation system, double-booking prevention, Google Maps integration, and a custom animated UI. Led the frontend and worked across the full stack with a team of three.",
       tech: ["JavaScript", "PHP", "MySQL", "HTML/CSS"],
       role: "Team of 3",
       live: "",
