@@ -10,7 +10,8 @@ export default function Navbar() {
     return () => clearInterval(t)
   }, [])
 
-  const fmtDate = time.toISOString().slice(0, 10)
+  const pad = n => String(n).padStart(2, '0')
+  const fmtDate = `${time.getFullYear()}-${pad(time.getMonth() + 1)}-${pad(time.getDate())}`
   const fmtTime = time.toTimeString().slice(0, 8)
 
   return (
