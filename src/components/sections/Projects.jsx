@@ -23,6 +23,7 @@ export default function Projects() {
             <div className={styles.nameCell}>
               <div className={styles.nameRow}>
                 <span className={styles.projectName}>{p.name}</span>
+                {p.wip && <span className={styles.wipBadge}>wip</span>}
                 <span className={styles.dot} style={{ '--dot-color': p.accent }}>●</span>
               </div>
               <p className={styles.blurb}>{p.blurb}</p>

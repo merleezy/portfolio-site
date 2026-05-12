@@ -67,6 +67,18 @@
   color: var(--dot-color);
 }
 
+.wipBadge {
+  font-size: 10px;
+  color: #f59e0b;
+  border: 1px solid #f59e0b44;
+  border-radius: 3px;
+  padding: 1px 5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1;
+  align-self: center;
+}
+
 .blurb {
   margin: 4px 0 0;
   font-size: 13px;

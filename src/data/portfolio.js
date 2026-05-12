@@ -18,9 +18,10 @@ export const portfolio = {
         "Personal life dashboard for tracking habits, goals, and tasks in one place. Features progress charts and structured reflection tools to help build consistency over time.",
       tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
       role: "Solo",
-      live: "",
-      repo: "",
+      live: "https://compass-seven-psi.vercel.app/habits",
+      repo: "https://github.com/merleezy/compass",
       accent: "#60a5fa",
+      wip: true,
     },
     {
       id: "smart-fitness",
