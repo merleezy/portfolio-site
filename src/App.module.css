@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 960px) {
+  .main {
+    padding: 60px 40px 120px;
+  }
+}
+
 @media (max-width: 768px) {
   .main {
     padding: 32px 20px 80px;

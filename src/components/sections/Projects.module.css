@@ -48,6 +48,7 @@
 .nameCell {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .nameRow {
@@ -126,6 +127,17 @@
   color: var(--accent3);
 }
 
+@media (max-width: 960px) {
+  .header,
+  .row {
+    grid-template-columns: 60px 1fr 160px 90px;
+  }
+
+  .role {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
     margin-bottom: 64px;
@@ -137,6 +149,9 @@
     grid-template-columns: 1fr;
     gap: 12px;
     padding: 20px;
+  }
+  .role {
+    display: block;
   }
   .row:hover {
     background: transparent;
