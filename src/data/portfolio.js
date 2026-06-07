@@ -31,7 +31,7 @@ export const portfolio = {
         "Full-stack fitness tracker with a rule-based coaching insight system, USDA FoodData API integration across 600k+ items, and a Chart.js analytics dashboard for weight and macro tracking.",
       tech: ["Flask", "PostgreSQL", "Python", "Chart.js"],
       role: "Solo",
-      live: "https://smart-fitness-app.up.railway.app/",
+      live: "smart-fitness-app.up.railway.app",
       repo: "github.com/merleezy/smart-fitness-tracker",
       accent: "#7dd3a0",
     },
