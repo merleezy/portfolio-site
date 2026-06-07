@@ -31,7 +31,7 @@ export const portfolio = {
         "Full-stack fitness tracker with a rule-based coaching insight system, USDA FoodData API integration across 600k+ items, and a Chart.js analytics dashboard for weight and macro tracking.",
       tech: ["Flask", "PostgreSQL", "Python", "Chart.js"],
       role: "Solo",
-      live: "smart-fitness-tracker-jc7l.onrender.com/",
+      live: "https://smart-fitness-app.up.railway.app/",
       repo: "github.com/merleezy/smart-fitness-tracker",
       accent: "#7dd3a0",
     },
@@ -133,7 +133,7 @@ export const portfolio = {
         handle: "in/isaac-mcdowell",
         url: "linkedin.com/in/isaac-mcdowell",
       },
-      { label: "Resume", handle: "PDF ↓", url: "/Resume.pdf" },
+      { label: "Resume", handle: "PDF ↓", url: "/Isaac_McDowell_Resume.pdf" },
     ],
   },
 };
