@@ -11,6 +11,19 @@ export const portfolio = {
 
   projects: [
     {
+      id: "draftsmith",
+      name: "Draftsmith",
+      year: "2026",
+      blurb:
+        "A requirements gathering agent harness that turns rough product ideas into structured PRDs through interactive clarifying questions and automated defect critique.",
+      tech: ["TypeScript", "React", "Node.js", "Express", "TailwindCSS"],
+      role: "Solo",
+      live: "requirements-agent.vercel.app",
+      repo: "github.com/merleezy/compass",
+      accent: "#67e8f9",
+      wip: false,
+    },
+    {
       id: "compass",
       name: "Compass",
       year: "2026",
@@ -20,7 +33,7 @@ export const portfolio = {
       role: "Solo",
       live: "compass-seven-psi.vercel.app/habits",
       repo: "github.com/merleezy/compass",
-      accent: "#60a5fa",
+      accent: "#607afaff",
       wip: true,
     },
     {
