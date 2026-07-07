@@ -19,7 +19,7 @@ export const portfolio = {
       tech: ["TypeScript", "React", "Node.js", "Express", "TailwindCSS"],
       role: "Solo",
       live: "requirements-agent.vercel.app",
-      repo: "github.com/merleezy/compass",
+      repo: "github.com/merleezy/requirements-agent",
       accent: "#67e8f9",
       wip: false,
     },
